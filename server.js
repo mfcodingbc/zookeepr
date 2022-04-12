@@ -1,6 +1,7 @@
 const { animals } = require('./data/animals');
 const express = require('express');
 
+// Tells the app to use the environment variable from heroku and set it to port 3001
 const PORT = process.env.PORT || 3001;
 const app = express();
 
@@ -48,7 +49,7 @@ function filterByQuery(query, animalsArray) {
     return filteredResults;
 };
 
-app.get('/api/animals', (req, res) => {
+app.get('./api/animals', (req, res) => {
 
     let results = animals;
 
