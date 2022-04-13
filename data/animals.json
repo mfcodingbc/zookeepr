@@ -108,16 +108,6 @@
         "hungry"
       ],
       "id": "10"
-    },
-    {
-      "name": "Jasmine",
-      "species": "Housecat",
-      "diet": "carnivore",
-      "personalityTraits": [
-        "hungry",
-        "goofy"
-      ],
-      "id": "11"
     }
   ]
 }
