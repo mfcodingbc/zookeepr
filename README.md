@@ -9,6 +9,14 @@ Follow this link to the deployed site: https://mighty-beyond-18138.herokuapp.com
 ## Usage
 Explore the page, input any new animal/zookeeper. Click the links to see the current database for either animals or zookeepers.
 
+## Technologies Used
+ - Express.js
+ - Jest
+ - Node.js
+ - Heroku
+ - HTML
+ - CSS
+
 ## Credits
 
 Created following the MSU Coding Bootcamp module on Express.js.
